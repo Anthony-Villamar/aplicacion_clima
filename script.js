@@ -1,6 +1,6 @@
 let api_key = '591b833c547241c81a9afc8d14c5a465'
 let dif_kelvin=273.15
-let urlbase = "http://api.openweathermap.org/data/2.5/weather"
+let urlbase = "https://api.openweathermap.org/data/2.5/weather"
 
 document.getElementById('botonBusqueda').addEventListener('click',()=>{
     const ciudad = document.getElementById('ciudadEntrada').value
